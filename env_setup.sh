@@ -12,7 +12,7 @@ sudo apt-get -y install python-pip libssl-dev
 sudo apt-get -y install gdb
 sudo pip install --upgrade pip
 sudo pip install --upgrade capstone
-sudo pip install --upgrade pwntools
+sudo pip install --upgrade --ignore-installed pwntools
 sudo pip install ropgadget
 git clone https://github.com/scwuaptx/peda.git ~/peda 
 cp ~/peda/.inpurc ~/
