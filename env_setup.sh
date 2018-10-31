@@ -10,6 +10,8 @@ sudo apt-get -y install libc6-dbg libc6-dbg:i386
 sudo apt-get -y install nmap
 sudo apt-get -y install python-pip libssl-dev
 sudo apt-get -y install gdb
+sudo apt-get -y install ltrace
+sudo apt-get -y install strace
 sudo pip install --upgrade pip
 sudo pip install --upgrade capstone
 sudo pip install --upgrade --ignore-installed pwntools
