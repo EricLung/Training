@@ -13,8 +13,7 @@ sudo pip install --upgrade pip
 sudo pip install --upgrade capstone
 sudo pip install --upgrade --ignore-installed pwntools
 sudo pip install ropgadget
-git clone https://github.com/JonathanSalwan/ROPgadget
-wget -q -O "$HOME/.gdbinit-gef.py" https://github.com/hugsy/gef/raw/master/gef.py
+sudo wget -q -O "$HOME/.gdbinit-gef.py" https://github.com/hugsy/gef/raw/master/gef.py
 test -f "$HOME/.gdbinit" && mv "$HOME/.gdbinit" "$HOME/.gdbinit.old"
 echo "source $HOME/.gdbinit-gef.py" > "$HOME/.gdbinit"
-gem install one_gadget
+sudo gem install one_gadget
